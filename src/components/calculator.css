@@ -1,0 +1,28 @@
+.calculator {
+    padding: 1em 2em;
+    border-style: groove;
+    background-color: #ffdcb9;
+    border-radius: 60px;
+    box-shadow: 3px 5px 5px 1px #7e7e7e;
+}
+
+button {
+    background-color: #ffdcb9;
+    box-shadow: 0 4px 1px 0 #7e7e7e, 0 2px 5px 0 gray;
+}
+
+button:active {
+    box-shadow: inset 1px 1px 2px #2a2a2a
+}
+
+.num-grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.op-grid {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    padding: 4px;
+}
